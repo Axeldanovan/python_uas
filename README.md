@@ -51,7 +51,7 @@ def hapus_data():
         print("Data",nama, "Telah dihapus!")
     else:
         print("Data Mahasiswa Tidak Ada".format(nama))
-   ```
+```
 
 - input untuk cetak_nilai.py
 ```python
