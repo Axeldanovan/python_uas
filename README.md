@@ -11,9 +11,9 @@
 
 ![UAS_1](https://user-images.githubusercontent.com/81457697/148918800-1866d043-87e4-4ebf-8a28-147b4792dd19.png)
 
-- input untuk  daftar_nilai.py
+- dibawah adalah code untuk syntax daftar_nilai.py
 ```python
-  from view.input_nilai import *
+from view.input_nilai import *
 
 dataMahasiswa = {}
 
@@ -51,11 +51,12 @@ def hapus_data():
         print("Data",nama, "Telah dihapus!")
     else:
         print("Data Mahasiswa Tidak Ada".format(nama))
-   ```
-     
+```
+
 - Berikut adalah code untuk syntax cetak_nilai.py
 ```python
 from model.daftar_nilai import *
+
 
 def cetak_daftar_nilai():
     if dataMahasiswa.items():
@@ -88,9 +89,9 @@ def cetak_hasil_pencarian():
         print("==============================================================")
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
-     ```
-  
-  - Berikut adalah code untuk syntax input_nilai.py
+```
+
+- Berikut adalah code untuk syntax input_nilai.py
 ```python
 def input_nama():
     global nama
@@ -120,4 +121,33 @@ def input_nilaiUas():
     global nilaiUas
     nilaiUas = int(input("Masukkan Nilai UAS   : "))
     return nilaiUas
+```
+
+- Dan berikut adalah syntax untuk main.py
+```python
+from view.cetak_nilai import *
+
+while True:
+    c = input("\nT)ambah, U)bah, C)ari, H)apus, L)ihat, K)eluar: ")
+
+    if c.lower() == 't':
+        tambah_data()
+
+    elif c.lower() == 'u':
+        ubah_data()
+
+    elif c.lower() == 'c':
+        cetak_hasil_pencarian()
+
+    elif c.lower() == 'h':
+        hapus_data()
+
+    elif c.lower() == 'l':
+        cetak_daftar_nilai()
+
+    elif c.lower() == 'k':
+        break
+
+    else:
+        print("Menu yang anda maksud tidak tersedia, Silahkan pilih menu yang tersedia")
 ```
