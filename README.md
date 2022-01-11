@@ -54,9 +54,7 @@ def hapus_data():
      ```
      
 - input untuk cetak_nilai.py
-
 ```python
-
 from model.daftar_nilai import *
 
 
