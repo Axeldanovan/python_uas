@@ -149,3 +149,34 @@ while True:
     else:
         print("Menu yang anda maksud tidak tersedia, Silahkan pilih menu yang tersedia")
 ```
+
+- output untuk program menambah data dengan input t di keyboard
+ 
+ ![UAS_2](https://user-images.githubusercontent.com/81457697/148923242-faa7f613-dda3-4a62-9cd2-419c1b7d47d6.png)
+ 
+- output untuk mencari data dengan input c di keyboard
+ 
+![UAS_3](https://user-images.githubusercontent.com/81457697/148923466-6b69e8f3-7a8a-4183-a6ec-9820f1c03740.png)
+
+- output untuk menambah data yang kedua dengan input t atau input yang sama yang pertama digunakan
+ 
+![UAS_4](https://user-images.githubusercontent.com/81457697/148928601-484ef81e-0eeb-4e25-92b0-d33126a7a26b.png)
+
+- output untuk melihat program apa saja yang sudah ditambahkan dengan input L di keyboard
+ 
+ ![UAS_5](https://user-images.githubusercontent.com/81457697/148928840-931df52a-4a6e-4411-93f2-878e92ef6ce2.png)
+ 
+- output untuk menghapus program yang ingin dihilangkan dengan input h di keyboard
+ 
+ ![UAS_6](https://user-images.githubusercontent.com/81457697/148929045-6d523a4b-1078-4c8c-bb47-18b53dfabda8.png)
+ 
+ - output untuk melihat apakah data yang dihapus sudah hilang atau masih tertera dengan input L di keyboard
+ 
+ ![UAS_7](https://user-images.githubusercontent.com/81457697/148929230-8fef3ca0-67a9-4143-b773-f9924c0138c6.png)
+
+- output untuk keluar dari program
+  
+ ![UAS_8](https://user-images.githubusercontent.com/81457697/148929418-de025e18-525f-418d-bd8f-eaab7e16fa61.png)
+
+
+
