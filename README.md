@@ -120,6 +120,7 @@ def input_nilaiUas():
     global nilaiUas
     nilaiUas = int(input("Masukkan Nilai UAS   : "))
     return nilaiUas
+```
 
 - input untuk main.py
 ```python
