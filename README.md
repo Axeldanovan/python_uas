@@ -90,6 +90,36 @@ def cetak_hasil_pencarian():
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
 ```
+- input untuk input_nilai.py
+```python
+def input_nama():
+    global nama
+    nama = input("Masukkan Nama        : ")
+    return nama
+
+
+def input_nim():
+    global nim
+    nim = input("Masukkan NIM         : ")
+    return nim
+
+
+def input_nilaiTugas():
+    global nilaiTugas
+    nilaiTugas = int(input("Masukkan Nilai Tugas : "))
+    return nilaiTugas
+
+
+def input_nilaiUts():
+    global nilaiUts
+    nilaiUts = int(input("Masukkan Nilai UTS   : "))
+    return nilaiUts
+
+
+def input_nilaiUas():
+    global nilaiUas
+    nilaiUas = int(input("Masukkan Nilai UAS   : "))
+    return nilaiUas
 
 - input untuk main.py
 ```python
