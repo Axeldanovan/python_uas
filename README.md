@@ -89,6 +89,7 @@ def cetak_hasil_pencarian():
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
      ```
+  
   - Berikut adalah code untuk syntax input_nilai.py
 ```python
 def input_nama():
