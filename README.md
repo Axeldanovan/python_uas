@@ -53,7 +53,7 @@ def hapus_data():
         print("Data Mahasiswa Tidak Ada".format(nama))
      ```
      
-- input untuk  cetak_nilai.py
+- Berikut adalah code untuk syntax cetak_nilai.py
 ```python
 from model.daftar_nilai import *
 
