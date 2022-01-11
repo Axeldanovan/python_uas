@@ -89,7 +89,7 @@ def cetak_hasil_pencarian():
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
      ```
-     - code untuk syntax input_nilai.py
+  - Berikut adalah code untuk syntax input_nilai.py
 ```python
 def input_nama():
     global nama
@@ -119,4 +119,4 @@ def input_nilaiUas():
     global nilaiUas
     nilaiUas = int(input("Masukkan Nilai UAS   : "))
     return nilaiUas
- ```
+```
