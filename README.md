@@ -51,7 +51,7 @@ def hapus_data():
         print("Data",nama, "Telah dihapus!")
     else:
         print("Data Mahasiswa Tidak Ada".format(nama))
-     ```
+   ```
      
 - Berikut adalah code untuk syntax cetak_nilai.py
 ```python
