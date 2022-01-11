@@ -11,7 +11,7 @@
 
 ![UAS_1](https://user-images.githubusercontent.com/81457697/148918800-1866d043-87e4-4ebf-8a28-147b4792dd19.png)
 
-- dibawah adalah code untuk syntax daftar_nilai.py
+- input untuk daftar_nilai.py
 ```python
 from view.input_nilai import *
 
@@ -53,7 +53,7 @@ def hapus_data():
         print("Data Mahasiswa Tidak Ada".format(nama))
 ```
 
-- Berikut adalah code untuk syntax cetak_nilai.py
+- input untuk cetak_nilai.py
 ```python
 from model.daftar_nilai import *
 
@@ -91,7 +91,7 @@ def cetak_hasil_pencarian():
         print("Datanya {0} Tidak Ada ".format(nama))
 ```
 
-- Berikut adalah code untuk syntax input_nilai.py
+- code untuk input_nilai.py
 ```python
 def input_nama():
     global nama
@@ -123,7 +123,7 @@ def input_nilaiUas():
     return nilaiUas
 ```
 
-- Dan berikut adalah syntax untuk main.py
+- input untuk main.py
 ```python
 from view.cetak_nilai import *
 
