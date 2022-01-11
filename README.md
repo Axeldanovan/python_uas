@@ -90,7 +90,7 @@ def cetak_hasil_pencarian():
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
 ```
-- input untuk input_nilai.py
+- code untuk input_nilai.py
 ```python
 def input_nama():
     global nama
